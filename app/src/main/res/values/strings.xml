@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Tweeter</string>
+
+    <string name="homePageTitle">Home</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="loadingData">Loading More Data…</string>
+    <string name="feedTabTitle">Feed</string>
+    <string name="storyTabTitle">Story</string>
+    <string name="followingTabTitle">Following</string>
+    <string name="followersTabTitle">Followers</string>
+
+    <string name="sampleAlias">"@UserAlias"</string>
+    <string name="sampleUserName">The User</string>
+
+    <string name="tag">Join the online community that users affectionately call "Twitter's nephew"!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="alias">Alias</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="retype_password">Re-type Password</string>
+    <string name="image_url">URL for Profile Image</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="swipe_left_for_register">Swipe Left For Register</string>
+    <string name="swipe_right_for_login">Swipe Right For Login</string>
+    <string name="sign_out">Logout</string>
+    <string name="status_field">Write a new status here...</string>
+    <string name="post_status">Post Status</string>
+</resources>

@@ -1,0 +1,19 @@
+apply plugin: 'java-library'
+apply plugin: 'com.github.johnrengelman.shadow'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':shared')
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.amazonaws:aws-lambda-java-core:1.2.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.6.1'
+    implementation 'com.amazonaws:aws-java-sdk-core:1.11.547'
+    implementation 'com.amazonaws:aws-java-sdk-dynamodb:1.11.547'
+    implementation 'commons-io:commons-io:2.6'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'com.amazonaws:aws-java-sdk-s3:1.11.547'
+
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
